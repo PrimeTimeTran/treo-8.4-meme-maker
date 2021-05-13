@@ -5,6 +5,8 @@ const { upload } = require("../middlewares/upload.helper");
 
 const { createMeme } = require("../controllers/memes.controller");
 
+// Try something nam suggested~!
+
 router.get("/", function (req, res, next) {
   res.json({ status: "ok", data: "Get all memes" });
 });
